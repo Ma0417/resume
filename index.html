@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kent Ma</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="music">
+    <span class="icon ion-ios-musical-notes control"></span>
+    <audio autoplay loop id="music">
+        <source src="img/y.mp3">
+    </audio>
+</div>
+<div class="menu">
+    <a href="#" class="btn">
+        <span class="control"></span>
+    </a>
+    <ul class="menu-list"  id="menu">
+        <li data-menuanchor="page1"><a href="#page1"><span class="icon ion-android-home"></span> &nbsp;首页 / HOME</a></li>
+        <li data-menuanchor="page2"><a href="#page2"><span class="icon ion-trophy"></span> &nbsp;技能 / SKILL</a></li>
+        <li data-menuanchor="page3"><a href="#page3"><span class="icon ion-ios-book"></span> &nbsp;作品 / WORKS</a></li>
+        <li data-menuanchor="page4"><a href="#page4"><span class="icon ion-heart"></span> &nbsp;评价 / EVALUATE</a></li>
+    </ul>
+</div>
+<div class="section section1">
+    <div class="page1">
+        <img src="img/photo.png" alt="头像">
+        <h1>Kent Ma</h1>
+        <h2>WEB前端 / 网页设计</h2>
+        <p>所有的梦想都能在我们的努力并坚持下实现。</p>
+    </div>
+</div>
+<div class="section section2">
+    <div class="page page2">
+        <h2><span class="icon ion-trophy"></span>&nbsp 个人技能 / SKILL</h2>
+        <div class="box">
+            <div class="skill skill1">HTML5 & CSS3</div>
+            <div class="skill skill2">JavaScript</div>
+            <div class="skill skill3">Bootstrap</div>
+            <div class="skill skill4">Jquery及相关插件</div>
+            <div class="skill skill5">Echart等图表插件</div>
+            <div class="skill skill6">PhotoShop</div>
+            <div class="skill skill7">PHP(学习中...)</div>
+        </div>
+    </div>
+</div>
+<div class="section section3">
+    <div class="page page3">
+        <h2><span class="icon ion-ios-book"></span>&nbsp 作品 / SKILL</h2>
+        <div class="box">
+            <div class="works works1">
+                <img src="img/work1.jpg" alt="">
+                <div class="content">
+                    <h3>响应式后台OA管理系统</h3>
+                    <p>利用HTML5+css3+jQuery手写完成该页面制作，利用媒体查询实现响应式布局</p>
+                    <a href="works/work1/index-city1.html" target="_blank">了解详情</a>
+                </div>
+            </div>
+            <div class="works works2">
+                <img src="img/work2.jpg" alt="">
+                <div class="content">
+                    <h3>后台管理系统</h3>
+                    <p>利用bootstrap实现响应式布局(只有页面截图)</p>
+                    <a href="img/work2.jpg" target="_blank">了解详情</a>
+                </div>
+            </div>
+            <div class="works works3">
+                <img src="img/work3.jpg" alt="">
+                <div class="content">
+                    <h3>响应式企业网站</h3>
+                    <p>网站主要使用了jQuery+bootstrap等实现了响应式布局。</p>
+                    <a href="http://www.wjqy.com" target="_blank">了解详情</a>
+                </div>
+            </div>
+            <div class="works works4">
+                <img src="img/work4.jpg" alt="">
+                <div class="content">
+                    <h3>后台统计模块</h3>
+                    <p>使用bootstrap栅格布局，图表使用echart实现是（只有页面截图）</p>
+                    <a href="img/work4.jpg" target="_blank">了解详情</a>
+                </div>
+            </div>
+            <div class="works works5">
+                <img src="img/work5.jpg" alt="">
+                <div class="content">
+                    <h3>模仿网易云PC端</h3>
+                    <p>纯手写网易云音乐网页版，现开发中...（主体部分暂时为固定图片）</p>
+                    <a href="works/work5/index.html" target="_blank">了解详情</a>
+                </div>
+            </div>
+            <div class="works works6">
+                <img src="img/work6.jpg" alt="">
+                <div class="content">
+                    <h3>个人简历模板</h3>
+                    <p>fullpage插件实现全屏滚动，设配移动端。</p>
+                    <a href="index.html" target="_blank">了解详情</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section section4">
+    <div class="page page4">
+        <h2><span class="icon ion-heart"></span>&nbsp 个人评价 / EVALUATE</h2>
+        <p id="page-text">
+            <!--我是一个性格幽默、做事负责人的人<br>-->
+            <!--喜欢研究所碰到的各种技术和问题，对个人的提升有不懈的追求<br>-->
+            <!--热爱生活，热爱前端<br>-->
+            <!--有一年半的前端开发经验，有比较丰富的HTML5、CSS3、JavaScript手写经历<br>-->
+            <!--能够熟练使用jQuery、bootstrap等常用框架<br>-->
+            <!--我的宗旨是坚持手写，不依赖插件，拒绝复制粘贴<br>-->
+            <!--开发出的页面符合W3C标准，有良好的编程习惯-->
+        </p>
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

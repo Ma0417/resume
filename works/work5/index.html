@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>仿网易云音乐</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/ionicons.min.css">
+</head>
+<body>
+<audio id="music">
+    <source src="../../img/y.mp3">
+</audio>
+<div class="wrap">
+    <div class="top">
+        <img class="logo" src="images/logo.jpg" alt="">
+        <div class="control">
+            <span class="active">&lt;</span>
+            <span>&gt;</span>
+        </div>
+        <input class="search" type="text" placeholder="搜索音乐，歌手，歌词，用户" title="播放（Ctrl+P）">
+        <div class="search-modal">
+            <h5>热门搜索</h5>
+            <ul>
+                <li>Lana Del Rey</li>
+                <li>Sad Angel</li>
+                <li>Weekend</li>
+                <li>Wake Me</li>
+                <li>Just Give Me A Reason</li>
+                <li>If</li>
+                <li>Last Reunion</li>
+                <li>Young And Beautiful</li>
+                <li>We Don't Talk Anymore</li>
+            </ul>
+        </div>
+        <span class="ion-ios-search icon"></span>
+        <div class="right">
+            <span class="icon ion-ios-close-empty"></span>
+            <span></span>
+            <span class="icon ion-ios-minus-empty"></span>
+            <span class="icon ion-ios-browsers-outline"></span>
+            <span>|</span>
+            <span class="icon ion-ios-gear-outline"></span>
+            <span class="icon ion-ios-email-outline"></span>
+            <span class="icon ion-tshirt-outline"></span>
+            <span class="name"> 丶Liar</span>
+            <div class="admin-modal">
+                <div class="admin-top">
+                    <div class="title">
+                        <img src="images/admin.jpg" alt="">
+                        <span>丶Liar</span>
+                        <button>签到</button>
+                    </div>
+                    <div class="admin-content">
+                        <span>动态</span>
+                        <span>关注</span>
+                        <span>粉丝</span>
+                    </div>
+                </div>
+                <div class="admin-body">
+                    <ul>
+                        <li><i class="icon ion-ios-musical-note"></i>会员中心</li>
+                        <li><i class="icon ion-android-star"></i>等级</li>
+                        <li><i class="icon ion-ios-cart-outline"></i>积分商城</li>
+                        <li><i class="icon ion-android-settings"></i>个人信息设置</li>
+                        <li><i class="icon ion-android-phone-portrait"></i>绑定社交账号</li>
+                        <li><i class="icon ion-android-exit"></i>导入歌单></li>
+                        <li><i class="icon ion-power"></i>退出登录</li>
+                    </ul>
+                </div>
+            </div>
+            <img class="img" src="images/admin.jpg" alt="">
+        </div>
+    </div>
+    <div class="content">
+        <img src="images/work-body.jpg" alt="">
+    </div>
+    <div class="bottom">
+        <div class="control">
+            <span class="icon ion-ios-skipbackward"></span>
+            <span id="play" class="ion-ios-play"></span>
+            <span class="icon ion-ios-skipforward"></span>
+        </div>
+        <div class="progress">
+            <span class="startTime">00:00</span>
+            <div class="bar">
+                <div class="bar-min"></div>
+            </div>
+            <span class="endTime">02:20</span>
+        </div>
+        <div class="souce">
+            <span class="icon ion-volume-medium"></span>
+            <div class="bar">
+                <div class="bar-min"></div>
+            </div>
+        </div>
+        <div class="other">
+            <span class="icon ion-ios-loop-strong"></span>
+            <span>词</span>
+            <span class="icon ion-ios-paper-outline"><number>20</number></span>
+        </div>
+    </div>
+</div>
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
