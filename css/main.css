@@ -173,6 +173,22 @@ a{
     letter-spacing:8px;
     margin-top: 80px;
 }
+.page1 .github{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    display:block;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    color: #b1b1b1;
+    text-align: right;
+    background: url("../img/github.png") no-repeat;
+    background-position: 20% 40%;
+}
+.page1 .github:hover{
+    color: #fff;
+}
 /********************第二页*******************/
 .page2{
     width: 100%;
